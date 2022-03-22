@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class Main { 
+	public static void main(String[] args) {//Main é a função principal
+		Scanner leitor = new Scanner(System.in);//Cria um novo scanner
+		String nome = leitor.nextLine();
+		System.out.println("seu nome e "+ nome);
+	}
+	
+}
