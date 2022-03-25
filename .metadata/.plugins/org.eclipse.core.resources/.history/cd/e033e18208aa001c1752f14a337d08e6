@@ -1,0 +1,16 @@
+package geometria;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		
+		
+		Circulo primeiroCirculo = new Circulo();
+		primeiroCirculo.setRaio(3);
+		
+		double areaCirculo = primeiroCirculo.calcularArea(); 
+		System.out.println("Valo da area do Circulo: " + areaCirculo);
+	}
+
+}

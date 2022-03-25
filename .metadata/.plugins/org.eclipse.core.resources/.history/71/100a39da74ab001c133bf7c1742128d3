@@ -1,0 +1,40 @@
+package geometria;
+
+public class Retangulo {
+	private double altura;
+	private double base;
+	public void setAltura(double altura) {
+		if(altura > 0) {
+			this.altura = altura;
+		}
+	}public void setBase(double base) {
+		if(base > 0) {
+			this.base = base;
+		}
+	}
+		public double calcularArea() {
+			double area = altura * base;
+			return area;
+			
+		}
+			
+		public void desenhar() {
+			for(int i=0; i<altura; i++) {
+				System.out.print("h ");
+				
+				for(int j=0; i<base; j++) {
+					if(i==0 || i+1 >= altura) {
+						System.out.print("b ");
+					}else {
+						System.out.print(" ");
+					}
+				}
+				System.out.println("h");
+				
+			}
+			
+		}
+		
+		}
+	
+

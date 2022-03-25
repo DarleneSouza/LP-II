@@ -1,0 +1,21 @@
+package geometria;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Quadrado primeiroQuadrado = new Quadrado();
+		primeiroQuadrado.setLado(4);
+		
+		double areaPrimeiroQuadrado = primeiroQuadrado.calculaArea();
+		System.out.println("Area quadrado: " + areaPrimeiroQuadrado);
+		
+		Retangulo primeiroRetangulo = new Retangulo();
+		primeiroRetangulo.setAltura(4);
+		primeiroRetangulo.setBase(5);
+		
+		double areaPrimeiroRetangulo = primeiroRetangulo.calcularArea();
+		System.out.println("Area retangulo: " + areaPrimeiroRetangulo);
+	}
+
+}

@@ -1,0 +1,20 @@
+package geometria;
+
+public class Retangulo {
+	private double altura;
+	private double base;
+	public void setLado(double altura,double base) {
+		if(altura > 0) {
+			this.altura = altura;
+		}if(base > 0) {
+			this.base = base;
+		}
+	}
+		public double calcularArea() {
+			double area = altura * base;
+			return area;
+		}
+			
+		}
+	
+
